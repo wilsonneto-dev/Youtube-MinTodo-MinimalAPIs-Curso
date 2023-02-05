@@ -8,8 +8,8 @@
 
 Você já está usando <b>Minimal APIs</b> em seu dia a dia? Este é o primeiro vídeo de uma série de 4 vídeos onde vou trazer tudo o que você precisa saber para dominar minimal APIs. 
 
-Link para o vídeo:<br />
-https://www.youtube.com/watch?v=VXy4XzQ-HFA
+Link para os vídeos:<br />
+Aula I: https://www.youtube.com/watch?v=VXy4XzQ-HFA
 
 Link do repositório do github:<br />
 https://github.com/wilsonneto-dev/Youtube-MinTodo-MinimalAPIs-Curso
