@@ -31,12 +31,16 @@ Conteúdo abordado na Parte I:
     - 1️⃣✅ [AsParameters]
 - 1️⃣✅ Injeção de dependencias / Injeçoes default
 
+Conteúdo abordado na Parte II:
+
+- 2️⃣✅ Results / Respostas
+- 2️⃣✅ Responses / documentação Open API (produces, TypedResults, Results)
+- 2️⃣✅ Endpoints Nomeados
+
 Conteúdos que serão abordados nos próximos vídeos:
-- Results / Respostas
+
 - Criando base da app de exemplo
 - Groups
-- Endpoints Nomeados
-- Responses / documentação Open API (produces, TypedResults, Results)
 - Tags
 - Validaçao de inputs
 - Filters
