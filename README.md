@@ -1,7 +1,8 @@
 ## Curso Minimal APIs - Youtube 
 
 <p align=center>
-  <img width="550" src="https://user-images.githubusercontent.com/20674439/216841373-3e7740c1-4c4e-420e-9753-2dd30bde0529.jpg" />
+  <img width="300" src="https://user-images.githubusercontent.com/20674439/216841373-3e7740c1-4c4e-420e-9753-2dd30bde0529.jpg" />
+  <img width="300" src="https://user-images.githubusercontent.com/20674439/217961625-153d754e-b0c2-4629-94f4-4e088535c169.jpg" />
 </p>
 
 <p>
@@ -9,7 +10,8 @@
 Você já está usando <b>Minimal APIs</b> em seu dia a dia? Este é o primeiro vídeo de uma série de 4 vídeos onde vou trazer tudo o que você precisa saber para dominar minimal APIs. 
 
 Link para os vídeos:<br />
-Aula I: https://www.youtube.com/watch?v=VXy4XzQ-HFA
+Aula I: https://www.youtube.com/watch?v=VXy4XzQ-HFA <br />
+Aula II: https://www.youtube.com/watch?v=YR2pUa86aqc
 
 Link do repositório do github:<br />
 https://github.com/wilsonneto-dev/Youtube-MinTodo-MinimalAPIs-Curso
@@ -30,13 +32,13 @@ Conteúdo abordado na Parte I:
     - 1️⃣✅ BindAsync
     - 1️⃣✅ [AsParameters]
 - 1️⃣✅ Injeção de dependencias / Injeçoes default
+- 2️⃣✅ Results / Respostas
+- 2️⃣✅ Documentação Open API Spec / Swagger
+- 2️⃣✅ Endpoints Nomeados
 
 Conteúdos que serão abordados nos próximos vídeos:
-- Results / Respostas
 - Criando base da app de exemplo
 - Groups
-- Endpoints Nomeados
-- Responses / documentação Open API (produces, TypedResults, Results)
 - Tags
 - Validaçao de inputs
 - Filters
