@@ -19,7 +19,7 @@ https://github.com/wilsonneto-dev/Youtube-MinTodo-MinimalAPIs-Curso
 Link para a documentação Minimal APIs da Microsoft: <br />
 https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/overview?view=aspnetcore-7.0
 
-Conteúdo abordado na Parte I:
+Conteúdos já abordados:
 
 - 1️⃣✅ Introdução / O que é?
 - 1️⃣✅ Mapeando as rotas
@@ -37,6 +37,7 @@ Conteúdo abordado na Parte I:
 - 2️⃣✅ Endpoints Nomeados
 
 Conteúdos que serão abordados nos próximos vídeos:
+
 - Criando base da app de exemplo
 - Groups
 - Tags
