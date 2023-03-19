@@ -15,11 +15,14 @@ app.UseSwagger();
 app.UseSwaggerUI();
 app.UseHttpsRedirection();
 
-app.MapGet("todos", (MinTodoDbContext dbContext) 
-    => TypedResults.Ok(dbContext.Todos.ToList()))
-    .WithName("TodoList");
+var todosApi = app.MapGroup("/todos");
 
-app.MapPost("todos", (TodoApiInput input, MinTodoDbContext dbContext) 
+todosApi.MapGet(string.Empty, (MinTodoDbContext dbContext) 
+    => TypedResults.Ok(dbContext.Todos.ToList()))
+    .WithName("TodoList")
+    .WithTags("Todo");
+
+todosApi.MapPost(string.Empty, (TodoApiInput input, MinTodoDbContext dbContext) 
     => {
         var todo = new Todo() { Description = input.Description };
         dbContext.Todos.Add(todo);
@@ -30,15 +33,17 @@ app.MapPost("todos", (TodoApiInput input, MinTodoDbContext dbContext)
             new { Id = todo.Id }
         );
     })
-    .WithName("TodoCreate");
+    .WithName("TodoCreate")
+    .WithTags("Todo");
 
-app.MapGet("todos/{id:int}", 
+todosApi.MapGet("{id:int}", 
     Results<Ok<Todo>, NotFound> (int id, MinTodoDbContext dbContext) 
     => dbContext.Todos.FirstOrDefault(x => x.Id == id) is Todo todo ?
         TypedResults.Ok(todo) : TypedResults.NotFound()
-    ).WithName("TodoDetails");
+    ).WithName("TodoDetails")
+    .WithTags("Todo", "Private");
 
-app.MapDelete("todos/{id:int}", 
+todosApi.MapDelete("{id:int}", 
     Results<NoContent, NotFound> (int id, MinTodoDbContext dbContext) 
     => {
         var todo = dbContext.Todos.FirstOrDefault(x => x.Id == id);
@@ -47,9 +52,10 @@ app.MapDelete("todos/{id:int}",
         dbContext.Todos.Remove(todo);
         dbContext.SaveChanges();
         return TypedResults.NoContent();
-    }).WithName("TodoDelete");
+    }).WithName("TodoDelete")
+    .WithTags("Todo", "Public");
 
-app.MapPut("todos/{id:int}", 
+todosApi.MapPut("{id:int}", 
     Results<Ok<Todo>, NotFound> (TodoApiInput input, int id, MinTodoDbContext dbContext) 
     => {
         var todo = dbContext.Todos.FirstOrDefault(x => x.Id == id);
@@ -59,7 +65,8 @@ app.MapPut("todos/{id:int}",
         dbContext.Todos.Update(todo);
         dbContext.SaveChanges();
         return TypedResults.Ok(todo);
-    }).WithName("TodoUpdate");
+    }).WithName("TodoUpdate")
+    .WithTags("Todo", "Private");
 
 app.Run();
 
