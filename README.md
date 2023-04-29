@@ -57,9 +57,11 @@
 - Organizando o código
 - Testes Integrados (brevemente sobre unitários)
 
-Vai ser muito massa! 🎉
-Se inscreva no canal para acompanhar e aprender mais sobre Minimal APIs! 😃
-
+--- 
+<p align=center>
+  Vai ser muito massa! 🎉 <br />
+  Se inscreva no canal para acompanhar e aprender mais sobre Minimal APIs! 😃
+</p>
 ---
 
 | [<img src="https://github.com/wilsonneto-dev.png" width="75px;"/>][1] |
