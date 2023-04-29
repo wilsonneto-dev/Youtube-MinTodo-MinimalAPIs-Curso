@@ -7,7 +7,16 @@
   🚀 Aprenda a criar APIs eficientes e modernas com o Curso de Minimal APIs no YouTube! Domine conceitos essenciais, técnicas de organização e otimização de código, autenticação, autorização e muito mais. Inscreva-se e eleve suas habilidades como desenvolvedor! 🌐💻
   </p>
 </center>
+
+--- 
+
 <br />
+
+Espero que goste do curso! 🎉
+
+Se inscreva no canal para acompanhar e ver diversos outros vídeos e dicas sobre .Net, Azure e muita Engenharia de Software! 😃 <br />
+
+📺 Canal do Youtube: https://www.youtube.com/@wilsonneto-dev
 
 📺 Acesse a playlist completa [aqui](https://www.youtube.com/playlist?list=PL1wAysx8qhvVGlaCBTiYB5WsWSQ3-pMtg)!
 
@@ -57,12 +66,6 @@
 - Organizando o código
 - Testes Integrados (brevemente sobre unitários)
 
---- 
-<p align=center>
-  Vai ser muito massa! 🎉 <br />
-  Se inscreva no canal para acompanhar e aprender mais sobre Minimal APIs! 😃
-</p>
----
 
 | [<img src="https://github.com/wilsonneto-dev.png" width="75px;"/>][1] |
 | :-: |
